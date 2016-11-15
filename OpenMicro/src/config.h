@@ -6,11 +6,11 @@
 
 // rate in deg/sec
 // for acro mode
-#define MAX_RATE 360.0
+#define MAX_RATE 600.0
 #define MAX_RATEYAW 360.0
 
 // max angle for level mode
-#define MAX_ANGLE_HI 55.0f
+#define MAX_ANGLE_HI 75.0f
 
 // disable inbuilt expo functions
 #define DISABLE_EXPO
@@ -109,7 +109,7 @@
 
 #define HEADLESSMODE CH_OFF
 
-#define LEVELMODE CH_AUX1
+#define LEVELMODE DEVO_CHAN_5
 
 #define STARTFLIP CH_OFF
 
